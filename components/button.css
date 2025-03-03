@@ -1,0 +1,20 @@
+@import url("/main.css");
+
+.button {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+  border-radius: 100px;
+  border: 2px solid var(--border-color-blue);
+  background: var(--btn-color-primary);
+  cursor: pointer;
+  color: var(--text-color-white);
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+}
+
+button:hover {
+  background: var(--btn-color-none);
+  color: var(--text-color-black);
+}
